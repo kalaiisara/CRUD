@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+}
+
+.con {
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  background: hsla(325, 71%, 70%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e97cbb", endColorstr="#7D6FD9", GradientType=1 );
+}
+
+.card-body {
+  /* background-color: #efda9b; */
+  background: hsla(325, 71%, 70%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(325, 71%, 70%, 1) 34%,
+    hsla(248, 58%, 64%, 1) 83%,
+    hsla(236, 67%, 64%, 1) 99%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e97cbb", endColorstr="#7D6FD9", GradientType=1 );
+}
+
+label {
+  font-weight: 650;
+}
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #f3dd9d;
+  box-shadow: 20px 20px 86px #eae7e7 -20px -20px 86px #ffffff;
+}
+.form-control {
+  border-radius: 10px;
+  background-color: #feffbb;
+}
+.main-rows {
+  margin-left: 95px;
+}
+
+.btn {
+  background-color: #7de1d9;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon button {
+  padding: 5px;
+  background-color: #7de1d9;
+}
